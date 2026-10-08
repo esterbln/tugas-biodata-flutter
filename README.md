@@ -1,16 +1,39 @@
-# tugas_1
+# Biodata Mahasiswa FIK UBL
 
-A new Flutter project.
+Aplikasi biodata mahasiswa sederhana yang dibuat dengan Flutter sebagai tugas mata kuliah Pemrograman IV.
 
-## Getting Started
+## Tampilan
 
-This project is a starting point for a Flutter application.
+![Tampilan aplikasi](screenshots/hasil.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Halaman profil dengan AppBar "Profile Saya"
+- Foto profil dengan bingkai
+- Informasi nama, NPM, fakultas, dan program studi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Teknologi
+
+- Flutter
+- Dart
+
+## Cara Menjalankan
+
+1. Pastikan Flutter SDK sudah terpasang.
+2. Clone repository ini, lalu masuk ke foldernya.
+3. Jalankan perintah berikut:
+
+```
+flutter pub get
+flutter run -d chrome
+```
+
+## Struktur Singkat
+
+- `lib/main.dart` : kode utama aplikasi
+- `assets/` : foto yang dipakai di aplikasi
+
+## Pembuat
+
+Ester Belen Wijaya  
+Sistem Informasi, Fakultas Ilmu Komputer, Universitas Bandar Lampung
